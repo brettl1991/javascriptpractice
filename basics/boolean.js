@@ -6,15 +6,23 @@
 //greater than or equal operator >=
 
 
-let temp = 100
-let isFreezing = temp <= 32
+let temp = 180
 
 
-console.log(isFreezing)
+if (temp <= 32) {
+    console.log('It is freezing outside!')
+}
 
-let age = 65
-let isChild = age <=7
-let isSenior= age >=65
+if (temp >= 110) {
+    console.log('It is way to hot outside!')
+}
 
-console.log(isChild)
-console.log(isSenior)
+let age = 6
+//If 7 or under print message about child pricing
+if (age <= 7) {
+    console.log('You will get a child discount!')
+}
+//If 65 or older print message about senior discount
+if (age >= 65) {
+    console.log('You will get a senior deiscount!')
+}
