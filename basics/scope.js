@@ -20,8 +20,6 @@ if (true) {
     }
 }
 
-
-
 if (true) {
     let varThree = 'varThree'
 }
