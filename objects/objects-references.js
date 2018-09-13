@@ -8,8 +8,8 @@ let addExpens = function (account, amount) {
    account.expenses = account.expenses + amount
 }
 
-//addExpens(myAccount, 2.50)
-//console.log(myAccount)
+//addExpens(myAccount, 2.50) this participate for above
+//console.log(myAccount) this participate for above
 
 //challange area
 //allowed us to add an income to account (addIncome: is going to take the account to manupalet which account we trying to add income for
