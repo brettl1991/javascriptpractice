@@ -20,7 +20,6 @@ let addExpens = function (account, amount) {
 //so addIncome
 //addExpens
 //addExpens
-//getAccountSummary
 //resetAccount
 //getAccountSummary
 
