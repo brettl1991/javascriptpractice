@@ -15,37 +15,43 @@ let otherBook = {
 let getSummary = function (book) {
     return {
         summary: `${book.title} by ${book.author}`,
-        pageCountSummary: `${book.title} is ${book.pageCount} pages lon.`
+        pageCountSummary: `${book.title} is ${book.pageCount} pages long.`
     }
 }
 
 let bookSummary = getSummary(myBook)
 let otherBookSummary = getSummary(otherBook)
+//we going to get just the pageCountSummary sentence with this:
 console.log(bookSummary.pageCountSummary)
+//with this we are going to get insde the return everything:
+//console.log(bookSummary)
 
 //Challange are
 //create function, take farenheit in and going to return objects with all three-objects with fahrenheit with converted celsius value and
 //with converted kelvin value
 
-let fahrenheit = 33
-let myFahrenheit = {
-    fahrenheit: fahrenheit,
-    convertedCelsius: (fahrenheit - 32) * 5 / 9,
-    convertedKelvin: (fahrenheit + 459.67) * (5 / 9)
-}
+//my solution:not good :D
 
-let getFahrenheit = function (result) {
-    return {
-        fahrenheitScore: `${result.fahrenheit}`,
-        celsiusScore: `${result.convertedCelsius}`,
-        kelvinScore: `${result.convertedKelvin}`
-    }
-}
+//let fahrenheit = 33
+//let myFahrenheit = {
+//    fahrenheit: fahrenheit,
+//    convertedCelsius: (fahrenheit - 32) * 5 / 9,
+//    convertedKelvin: (fahrenheit + 459.67) * (5 / 9)
+//}
 
-letFahrenheitsummary = getFahrenheit(myFahrenheit)
-console.log(letFahrenheitsummary)
+//let getFahrenheit = function (result) {
+//    return {
+//        fahrenheitScore: `${result.fahrenheit}`,
+//        celsiusScore: `${result.convertedCelsius}`,
+//        kelvinScore: `${result.convertedKelvin}`
+//    }
+//}
+
+//letFahrenheitsummary = getFahrenheit(myFahrenheit)
+//console.log(letFahrenheitsummary)
 
 //his soulution:
+
 let convertFahrenheit = function (fahrenheit) {
     return {
         fahrenheit: fahrenheit,
@@ -53,5 +59,6 @@ let convertFahrenheit = function (fahrenheit) {
         celsius: (fahrenheit - 32) * 5 / 9
         }
     }
+    
 let temps = convertFahrenheit(74)
 console.log(temps)
