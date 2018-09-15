@@ -40,5 +40,6 @@ addIncome(myAccount, 2000)
 addExpens(myAccount, 250)
 addExpens(myAccount, 160)
 console.log(getAccountSummary(myAccount))
+ //this is for reset
 resetAccount(myAccount)
 console.log(getAccountSummary(myAccount))
