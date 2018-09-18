@@ -8,6 +8,8 @@ greetUser()
 greetUser()
 greetUser()
 
+//we are going to get 3 times user 
+
 let square = function (num) {
    let result = num * num
    return result
@@ -20,7 +22,7 @@ console.log(otherValue)
 
 //Challange are
 //ConvertFahrenheitToCelsius
-//Call a couple of times (32-> 0) (68 -> 20)
+//Call a couple of times (32->we gonna get 0) (68 ->we gonna get 20)
 //Print teh converted values
 
 let ConvertFahrenheitToCelsius = function (fahrenheit) {
