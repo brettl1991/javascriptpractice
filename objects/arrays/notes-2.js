@@ -5,7 +5,7 @@ const notes = ['Note 1', 'Note 2', 'Note 3']
 
 //the shift method removes the very first item from your list:
 
-//(notes.shift())
+//notes.shift()
 
 //we can add a new item to the end of the list, we use the array push:
 //notes.push('My new note')
