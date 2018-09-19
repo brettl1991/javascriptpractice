@@ -63,10 +63,12 @@ console.log(notes)
 // console.log(someObject === otherObject)
 //going to be true
 
-//findIndes allow us to provide our own definition of what makes 2 thing equal
+//findIndex allow us to provide our own definition of what makes 2 things equal, this is for objects
 const index = notes.findIndex(function(note, index) {
     console.log(note)
     return note.title === 'Habbits to work on'
 })
 console.log(index)
+
+//we going to get back 2
 
