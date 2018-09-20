@@ -20,12 +20,12 @@ const findNote = function (notes, noteTitle) {
 //return back: { title: 'Office modification', body: 'Get a new seat' }
 
 
-// const findNote = function (notes, noteTitle) {
-//     const index = notes.findIndex(function (note, index) {
-//         return note.title.toLowerCase() === noteTitle.toLowerCase()
-//     })
-//     return notes[index]
-// }
+const findNote = function (notes, noteTitle) {
+    const index = notes.findIndex(function (note, index) {
+        return note.title.toLowerCase() === noteTitle.toLowerCase()
+    })
+    return notes[index]
+}
 
 //so if we still get tha message :
 //{ title: 'Office modification', body: 'Get a new seat' }
