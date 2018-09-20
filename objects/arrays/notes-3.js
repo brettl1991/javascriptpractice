@@ -25,10 +25,6 @@ console.log(notes)
 
 const todos = ['Todo 1', 'Todo 2', 'Todo 3', 'Todo 4', 'Todo 5']
 
-todos.splice(2, 1)
-todos.push('My new todo')
-todos.shift()
-console.log(`You have ${todos.length} todos.`)
 
 todos.forEach(function(item, index) {
     const num = index + 1
