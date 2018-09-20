@@ -9,7 +9,7 @@ const notes = [{
     body: 'Get a new seat'
 }]
 
-//The filter method returns a new array with just teh filetred items. Get called one time for each item.
+//The filter method returns a new array with just the filetred items. Get called one time for each item.
 // const filterNotes = notes.filter(function (note, index) {
 //     return true
 // })
