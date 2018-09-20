@@ -2,14 +2,6 @@
 
     // notes[2] = 'This now a new note 3'
 
-    // notes.forEach(function (item, index) {
-    //     console.log(index)
-    //     console.log(item)
-    // })
-
-    // console.log(notes.length)
-    // console.log(notes)
-
     // // console.log(notes.indexOf('Note 2'))
 
     // //this is going to return a number and if does not exsist we get back negative, so indexOf method allow us to get a position
